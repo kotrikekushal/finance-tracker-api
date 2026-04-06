@@ -83,7 +83,7 @@ expense_tracker/
 ### 1️ Clone Repository
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/kotrikekushal/finance-tracker-api.git
 cd expense_tracker
 ```
 
