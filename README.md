@@ -1,6 +1,6 @@
-# 💰 Finance Tracker API (Django REST Framework)
+#  Finance Tracker API (Django REST Framework)
 
-## 🚀 Overview
+##  Overview
 
 This project is a **Python-based Finance Tracking Backend System** built using **Django and Django REST Framework**.
 It allows users to manage their financial records (income & expenses), analyze spending, and generate useful summaries.
@@ -9,9 +9,9 @@ The system is designed with clean backend logic, proper API structure, and user-
 
 ---
 
-## 🎯 Features
+## Features
 
-### 🔐 Authentication
+###  Authentication
 
 * User Registration
 * User Login (Session-based)
@@ -20,7 +20,7 @@ The system is designed with clean backend logic, proper API structure, and user-
 
 ---
 
-### 💰 Expense Management (CRUD)
+###  Expense Management (CRUD)
 
 * Add Expense / Income
 * View all records
@@ -29,7 +29,7 @@ The system is designed with clean backend logic, proper API structure, and user-
 
 ---
 
-### 🔍 Filtering & Search
+###  Filtering & Search
 
 * Search by title
 * Filter by amount range
@@ -37,7 +37,7 @@ The system is designed with clean backend logic, proper API structure, and user-
 
 ---
 
-### 📊 Analytics & Insights
+###  Analytics & Insights
 
 * Total Income
 * Total Expense
@@ -51,7 +51,7 @@ The system is designed with clean backend logic, proper API structure, and user-
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 * Python
 * Django
@@ -60,7 +60,7 @@ The system is designed with clean backend logic, proper API structure, and user-
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 expense_tracker/
@@ -78,9 +78,9 @@ expense_tracker/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
-### 1️⃣ Clone Repository
+### 1️ Clone Repository
 
 ```bash
 git clone <your-repo-link>
@@ -89,7 +89,7 @@ cd expense_tracker
 
 ---
 
-### 2️⃣ Install Dependencies
+### 2️ Install Dependencies
 
 ```bash
 pip install django djangorestframework
@@ -97,7 +97,7 @@ pip install django djangorestframework
 
 ---
 
-### 3️⃣ Run Migrations
+### 3 Run Migrations
 
 ```bash
 python manage.py makemigrations
@@ -106,7 +106,7 @@ python manage.py migrate
 
 ---
 
-### 4️⃣ Run Server
+### 4️ Run Server
 
 ```bash
 python manage.py runserver
@@ -114,9 +114,9 @@ python manage.py runserver
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
-### 🔐 Authentication
+###  Authentication
 
 | Method | Endpoint       | Description   |
 | ------ | -------------- | ------------- |
@@ -126,7 +126,7 @@ python manage.py runserver
 
 ---
 
-### 💰 Expenses
+###  Expenses
 
 | Method | Endpoint                   | Description   |
 | ------ | -------------------------- | ------------- |
@@ -137,7 +137,7 @@ python manage.py runserver
 
 ---
 
-### 🔍 Filtering
+###  Filtering
 
 | Endpoint                                  | Description    |
 | ----------------------------------------- | -------------- |
@@ -146,7 +146,7 @@ python manage.py runserver
 
 ---
 
-### 📊 Analytics
+###  Analytics
 
 | Endpoint               | Description              |
 | ---------------------- | ------------------------ |
@@ -160,7 +160,7 @@ python manage.py runserver
 
 ---
 
-## 🧠 Key Design Decisions
+##  Key Design Decisions
 
 * Used **Django ORM** for database handling
 * Implemented **session-based authentication**
@@ -170,7 +170,7 @@ python manage.py runserver
 
 ---
 
-## ⚠️ Assumptions
+##  Assumptions
 
 * Each user manages their own financial data
 * Categories are simple text-based values
@@ -178,7 +178,7 @@ python manage.py runserver
 
 ---
 
-## 🏆 Highlights
+##  Highlights
 
 * Clean backend architecture
 * Strong use of Django REST Framework
@@ -187,7 +187,7 @@ python manage.py runserver
 
 ---
 
-## 📌 Future Improvements (Optional)
+##  Future Improvements (Optional)
 
 * Token-based authentication (JWT)
 * Pagination
@@ -197,13 +197,13 @@ python manage.py runserver
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Developed as part of a backend assessment project to demonstrate Python and API development skills.
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 This project demonstrates strong backend development skills including API design, data handling, authentication, and analytics processing using Python and Django.
 
